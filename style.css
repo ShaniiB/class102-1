@@ -9,8 +9,8 @@ body, html {
 }
 .title{
    position: relative;
-   top: 20px;
-   left: 40%;
+   top: 180px;
+   left: 46%;
    color:#FFCCCC;
    font-size: 60px;
    font-family: 'yellowtail', cursive;
@@ -45,7 +45,7 @@ h2 {
     padding: 5px 5px;
     display: block;
     width: 10px;
-    height: 60px;
+    height: 80px;
     border-radius: 30px;
   }
   .link:hover {
@@ -87,8 +87,8 @@ h2 {
     }
     .navi {
         position: absolute;
-        top: 120px;
-        left: -55px;
+        top: 139px;
+        left: -58px;
         background-color: transparent;
         height: auto;
         width: auto;
@@ -119,11 +119,12 @@ h2 {
         border-radius: 20px 20px 20px 20px;
         z-index:  4;
     }
-    .gal{
-      position: absolute;
+    .galimg{
+      position: relative;
       width: 150px;
       height: 380px;
       float: left;
-      margin-top: -50px;
+      margin-top: -380px;
+      margin-left: -20px;
       z-index:  4;
   }
