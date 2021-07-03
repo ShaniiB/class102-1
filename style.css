@@ -60,19 +60,19 @@ h3 {
     height: 80px;
     border-radius: 30px;
   }
-  .link:hover {
+   .link:hover {
     background-color:#FFCCCC ;
     width: 15px;
     margin-left: -8px;
     transition: 0.2s ease-in-out;
-  }
-  .link:visited {
-    background-color: #FFCCCC;
-  }
-  .link:active {
-    background-color: #FFCCCC;
-    margin-left: -10px;
-  }
+   }
+   .link:visited {
+     background-color: #FFCCCC;
+   }
+    .link:active {
+      background-color: #FFCCCC;
+      margin-left: -10px;
+   }
     .container {
       position: relative;
       background-image: url(https://i.imgur.com/I4bDhKH.png);
@@ -87,7 +87,7 @@ h3 {
       border-radius: 20%;
       z-index:- 20;
     }
-    .content {
+     .content {
         position: relative;
         background-color: #FFFFFF;
         width: 580px;
@@ -97,7 +97,7 @@ h3 {
         opacity: 70%;
         z-index: 0;
     }
-    .navi {
+     .navi {
         position: absolute;
         top: 139px;
         left: -58px;
@@ -106,7 +106,7 @@ h3 {
         width: auto;
         z-index: -1;
       }
-    .continfo {
+     .continfo {
       position: relative;
         width: 295px;
         height: 230px;
@@ -118,7 +118,7 @@ h3 {
         text-align: justify;
         z-index:  4;
     }
-    .contgal{
+     .contgal {
         position: absolute;
         width: 150px;
         height: 390px;
@@ -131,21 +131,27 @@ h3 {
         border-radius: 20px 20px 20px 20px;
         z-index:  4;
     }
-    .galimg{
-      position: relative;
+     .galimg {
+       position: relative;
+       width: 150px;
+       height: 380px;
+       float: left;
+       margin-top: -390px;
+       margin-left: -10px;
+       z-index:  4;
+  }
+    .galimg2 {
+      position: absolute;
       width: 150px;
       height: 380px;
-      float: left;
-      margin-top: -390px;
-      margin-left: -10px;
+      margin-top: -345px;
+      margin-left: 130px;
       z-index:  4;
   }
-   .galimg2{
-     position: absolute;
-     width: 150px;
-     height: 380px;
-     float: left;
-     margin-top: -345px;
-     margin-left: 130px;
-     z-index:  4;
-}
+    .player {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      z-index: 2;
+  }
