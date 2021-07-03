@@ -35,7 +35,7 @@ h2 {
   font-size: 20px;
   font-family: 'yellowtail';
   text-shadow: #FFCCCC 2px 2px 2px;
-  margin-top: 0px;
+  margin-top: -10px;
 }
 h3 {
   display: block;
@@ -140,3 +140,12 @@ h3 {
       margin-left: -2px;
       z-index:  4;
   }
+   .galimg2{
+     position: absolute;
+     width: 150px;
+     height: 380px;
+     float: left;
+     margin-top: -345px;
+     margin-left: 130px;
+     z-index:  4;
+}
