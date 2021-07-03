@@ -150,12 +150,12 @@ h3 {
   }
     .player {
       position: absolute;
-      width: 200px;
+      width: 300px;
       height: 150px;
       margin-top: -75px;
-      margin-left: 335px;
+      margin-left: 280px;
       overflow: hidden;
       border: #FFFFFF 2px solid;
-      border-radius: 10%;
+      border-radius: 15%;
       z-index: 2;
   }
