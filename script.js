@@ -1,4 +1,7 @@
- let answer = prompt('Does music inspire your creations?');
-     if (answer == Yes) 
-let answer = prompt( "Good! This page contains music!" );
-    
+let answer = prompt('Do you like Space?');
+console.log (answer);
+if (answer === "Yes" || "yes"); {
+    alert('Sweet!');   
+let prompt = ('Do you like Llamas?');
+    alert('You better!');
+    alert('LLAMAS IN SPAAAAACEEEE')} 
