@@ -74,7 +74,7 @@ h3 {
       margin-left: -10px;
    }
     .container {
-      position: relative;
+      position: absolute;
       background-image: url(https://i.imgur.com/I4bDhKH.png);
       background-repeat: no-repeat;
       background-size: 600px 700px;
@@ -159,3 +159,4 @@ h3 {
       border-radius: 15%;
       z-index: 2;
   }
+
