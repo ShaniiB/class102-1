@@ -10,7 +10,7 @@ let question; {
 
  var moon = prompt("Do you like moons?\nIf so how many do you want?");
    for(let i = 0; i < moon; i++){
-  document.write("<img src ='https://i.imgur.com/MrSdk27.png'>");
+  document.write("<img src ='https://i.imgur.com/MrSdk27.png?1'>");
   console.log(i);
   }
 }
