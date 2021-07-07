@@ -1,21 +1,16 @@
-alert("Hiya, thanks for stopping by!"); {
-alert("Good to see ya!");
+let question; {
+  alert("Hiya!\nThanks for dropping by!");
+  alert("Hope you are having a good day today!");
+  let r = confirm("Press Ok to proceed to my page!"); 
+  if (r == true) {
+    question = alert('Sweet!\nEnjoy yourself');
+  } else {
+       alert('Wow, rude!');
 }
 
-let question = prompt("Do you like Outer Space?",'');{
-let yes = (true);  
-
-if (interest = yes); 
-    alert("Sweet!"); 
-    alert("You rock!");
-(accessAllowed = interest == true); }
-
-
-let brave; {
-let r = confirm("Final question..\nare you brave enough to..\nPress the Button??");
-if (r == true) {
-  brave == alert('You pressed the button!\nColor me impressed!');
-           alert('Welcome Cadet!');
-} else {
-     alert('Chickened out!\nBawk!Bawwwk!'); }
+ var moon = prompt("Do you like moons?\nIf so how many do you want?");
+   for(let i = 0; i < moon; i++){
+  document.write("<img src =;https://i.imgur.com/MrSdk27.png'>");
+  console.log(i);
+  }
 }
