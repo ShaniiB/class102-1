@@ -4,7 +4,7 @@ body, html {
     background-image: linear-gradient(#CC66FF,#FFCCFF);
     background-repeat: no-repeat;
     height: 800px;
-    overflow: hidden;
+    overflow-x: hidden;
     z-index: -10;
 }
 .title{
@@ -158,3 +158,5 @@ h2 {
       border-radius: 15%;
       z-index: 2;
   }
+
+
